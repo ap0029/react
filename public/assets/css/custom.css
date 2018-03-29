@@ -1,0 +1,50 @@
+body {
+    background-color: #fafafa;
+}
+.starter-template {
+  padding: 5rem 1.2rem;
+}
+
+.font-size-md{
+    font-size: 14px;
+}
+
+.font-size-sm{
+    font-size: 12px;
+}
+
+
+
+
+::-webkit-input-placeholder {
+   font-size: 14px!important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+      font-size: 14px!important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+      font-size: 14px!important;
+}
+
+.disabled{
+    color: #868e96;
+  background-color: #e9ecef;
+}
+
+.disabled:hover{
+    color: #868e96;
+  background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+.m-l-a{
+    margin-left: auto;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
